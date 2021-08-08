@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway";
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+  }
+  
+  main {
+    display: flex;
+    margin: auto;
+    max-width: 750px;
+    position: relative;
+    top: 40px;
+    z-index: 0;
+  }
+  
+  @media (max-width: 590px) body {
+    font-size: 85%;
+  }
+  
